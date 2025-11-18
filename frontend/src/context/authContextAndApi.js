@@ -3,7 +3,7 @@ import React, { createContext, useContext } from 'react';
 import axios from 'axios';
 
 // --- Configuration ---
-const API_URL = 'https://keepup-backend.onrender.com'; 
+const API_URL = 'https://keepup-backend.onrender.com/api'; 
 
 // 1. Export the Context
 export const AuthContext = createContext(null); 
