@@ -1,0 +1,36 @@
+# ======================================
+# FRONTEND (React)
+# ======================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.vite/
+frontend/.cache/
+frontend/.DS_Store
+
+# ======================================
+# BACKEND (Node / Express)
+# ======================================
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/build/
+backend/logs/
+backend/uploads/
+backend/tmp/
+backend/*.log
+backend/*.pid
+
+# ======================================
+# COMMON
+# ======================================
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
