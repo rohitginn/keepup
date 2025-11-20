@@ -27,7 +27,7 @@ const AppRouter = () => {
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-950 flex items-center justify-center text-indigo-400 text-xl">
-        <Loader2 className="w-8 h-8 animaite-spin mr-3" /> Initializing Application...
+        <Loader2 className="w-8 h-8 animate-spin mr-3" /> Initializing Application...
       </div>
     )
   };
